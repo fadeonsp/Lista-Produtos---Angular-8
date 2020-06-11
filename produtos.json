@@ -1,0 +1,76 @@
+{
+    "produtos": [
+        {
+        "id": 1,
+        "nome": "Fone de ouvido",
+        "valor": 290.00,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "fone.jpg"
+    }, 
+    {
+        "id": 2,
+        "nome": "Camiseta rock",
+        "valor": 30.90,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "camiseta.jpg"
+    },
+    {
+        "id": 3,
+        "nome": "Monitor",
+        "valor": 255.90,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "monitor.jpg"
+    },
+    {
+        "id": 4,
+        "nome": "NoteBook",
+        "valor": 2255.90,
+        "promocao": true,
+        "valorPromo": 900,
+        "imagem": "notebook.jpg"
+    },
+    {
+        "id": 5,
+        "nome": "video game",
+        "valor": 4000,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "videogame.jpg"
+    },
+    {
+        "id": 6,
+        "nome": "Webcam",
+        "valor": 90.00,
+        "promocao": true,
+        "valorPromo": 50.00,
+        "imagem": "webcam.jpg"
+    },
+    {
+        "id": 7,
+        "nome": "Celular",
+        "valor": 3000.00,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "celular.jpg"
+    },
+    {
+        "id": 8,
+        "nome": "Kindle",
+        "valor": 255.90,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "kindle.jpg"
+    },
+    {
+        "id": 9,
+        "nome": "Relógio Digital",
+        "valor": 300.00,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "relogio.jpg"
+    }  
+  ]
+}
