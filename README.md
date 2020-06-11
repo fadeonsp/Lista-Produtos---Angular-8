@@ -1,27 +1,23 @@
-# MeuProjeto
+utilizei o json server como uma API Fake para chamar os endpoints do backend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+não me preocupei com a estilização, usei a estrutura do bootstrap versão 4.5.0
 
-## Development server
+o intuito do projeto foi colocar em práticas os conceitos do angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+como: 
 
-## Code scaffolding
+ROTAS DE NAVEGAÇÃO
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+DIRETIVAS: ngIf, ngFor, NgSwitch, 
 
-## Build
+PIPES: para fazer formatação de valores correntes
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+INTERPOLAÇÃO: é a forma mais fácil de exibir um dado {{}}
 
-## Running unit tests
+PROPERTY BINDING: define valor de uma propriedade do elemento do HTML ex: <img [src]="minhaUrl">
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+EVENT BINDING: realiza chamada de um método com base no evento do elemento do HTML button(click)='clickContator()'
 
-## Running end-to-end tests
+TWO-WAY BINDING: exibe e atualiza um dado nas duas direções(template, componente) é união do property com event binding
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+obs: a partir da versao 8 usamos o enableIVy para compilar de forma mais rapida a nossa aplicação
